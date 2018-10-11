@@ -13,5 +13,5 @@ new_winner = ''
      new_winner = val
     end
   end
-  winner 
+  new_winner 
 end
