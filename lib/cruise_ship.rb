@@ -8,6 +8,6 @@
 
 def select_winner(passengers)
   puts "Happy Birthday #{name}! You are now #{age} years old!"
-   birthday_kids.each do |key, age|
-     
+   birthday_kids.each do |key, val|
+       puts "Happy Birthday #{name}! You are now #{age} years old!"
 end
