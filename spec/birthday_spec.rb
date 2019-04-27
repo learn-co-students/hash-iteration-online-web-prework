@@ -9,6 +9,6 @@ describe "#happy_birthday" do
     }
 
     expect{happy_birthday(birthday_kids)}.to output("Happy Birthday Timmy! You are now 9 years old!\nHappy Birthday Sarah! You are now 6 years old!\nHappy Birthday Amanda! You are now 27 years old!\n").to_stdout
-
+# There is not bonus test present :(
   end
 end
