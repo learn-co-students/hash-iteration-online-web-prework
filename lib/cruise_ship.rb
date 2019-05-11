@@ -6,6 +6,9 @@
 # suite_e: "Crumpet the Elf"
 # }
 
-def select_winner(passengers)
-  # add the code snippet here!
+def Winner = ""
+  Passengers.Each do |suite,name|
+    if suite == :suite_a && name.start_with? ("A")
+      Winner = name
+    end
 end
